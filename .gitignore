@@ -1,0 +1,66 @@
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# ========================
+# Runtime Data (9router)
+# ========================
+9router-data/jwt-secret
+9router-data/machine-id
+9router-data/db/
+9router-data/bin/
+9router-data/logs/
+9router-data/mitm/
+
+# ========================
+# Database
+# ========================
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# ========================
+# Binaries
+# ========================
+9router-data/bin/cloudflared
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Editor / IDE
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Backups
+# ========================
+*.backup
+*.bak
+9router-data/db/backups/
